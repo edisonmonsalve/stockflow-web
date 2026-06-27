@@ -1,18 +1,5 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+import Dashboard from './pages/Dashboard';
 
-function App() {
-  // const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <h1>StockFlow</h1>
-      <p>React Frontend</p>
-    </>
-  )
+export default function App() {
+  return <Dashboard />;
 }
-
-export default App
